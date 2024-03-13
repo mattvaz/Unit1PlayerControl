@@ -17,6 +17,6 @@ public class Propeller : MonoBehaviour
     void Update()
     {
         propeller = Input.GetAxis("Vertical");
-        transform.Rotate(Vector3.forward * propeller * 40);
+        transform.Rotate(Vector3.forward * propeller * 40); 
     }
 }
